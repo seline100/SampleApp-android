@@ -4,6 +4,8 @@ jdk: oraclejdk8
 
 sudo: false
 
+dist: trusty
+
 licenses:
   - 'android-sdk-preview-license-.+'
   - 'android-sdk-preview-license'
