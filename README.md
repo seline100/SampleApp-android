@@ -1,4 +1,4 @@
-## SampleApp-android
+## SampleApp-android [![Build Status](https://travis-ci.org/seline100/SampleApp-android.svg?branch=master)](https://travis-ci.org/seline100/SampleApp-android)
   一个简单的Android开发框架，基于自己整理和网络资源，你可以直接在上面开始你的项目。
 
 ## Contents
