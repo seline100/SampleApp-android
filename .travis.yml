@@ -1,0 +1,24 @@
+language: android
+
+jdk: oraclejdk8
+
+sudo: false
+
+licenses:
+  - 'android-sdk-preview-license-.+'
+  - 'android-sdk-preview-license'
+  - 'android-sdk-license-.+'
+  - 'android-sdk-license'
+  - 'google-gdk-license-.+'
+  - '.+'
+
+android:
+  components:
+  - tools
+  - build-tools-25.0.2
+  - android-25
+  - extra-android-m2repository
+  - extra-android-support
+
+script:
+  - "./gradlew assembleRelease"
