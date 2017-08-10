@@ -1,9 +1,11 @@
-package com.linkorz.demon;
+package com.linkorz.demon.activity;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import com.linkorz.demon.BaseActivity;
+import com.linkorz.demon.R;
+
+public class MainActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
