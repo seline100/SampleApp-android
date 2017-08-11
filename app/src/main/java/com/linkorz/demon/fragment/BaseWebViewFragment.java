@@ -37,7 +37,7 @@ import java.io.StringReader;
  * Date: 17-8-11
  * Description:A placeholder fragment containing a simple view.
  * support webkit && chromium fullScreen-video-enable,JSInterface,textAutoSizing.
- * See the <a href="https://developer.chrome.com/multidevice/webview/overview">
+ * See the <a href="https://developer.chrome.com/multidevice/webview/overview"/>
  */
 
 public class BaseWebViewFragment extends Fragment {
@@ -78,8 +78,8 @@ public class BaseWebViewFragment extends Fragment {
 
         setUpWebViewDefaults(mWebView);
 
-        mWebView.loadUrl("file:///android_asset/www/index.html");
-
+//        mWebView.loadUrl("file:///android_asset/www/index.html");
+        mWebView.loadUrl("http://www.linkorz.xyz");
         mWebView.setWebChromeClient(new WebChromeClient() {
 
             @Override
@@ -203,6 +203,7 @@ public class BaseWebViewFragment extends Fragment {
             WebView.setWebContentsDebuggingEnabled(true);
         }
 
+        // Force links and redirects to open in the WebView instead of in a browser
         webView.setWebViewClient(new WebViewClient());
 
     }
