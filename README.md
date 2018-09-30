@@ -1,6 +1,8 @@
 ## SampleApp-android [![Build Status](https://travis-ci.org/seline100/SampleApp-android.svg?branch=master)](https://travis-ci.org/seline100/SampleApp-android) [![Gradle Version](https://img.shields.io/badge/gradle-3.3-green.svg)](https://docs.gradle.org/current/release-notes) [![Licence](https://img.shields.io/badge/licence-Apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
   一个简单的Android开发框架，基于自己整理和网络资源，你可以直接在上面开始你的项目。
 
+  update 2018.09.30 add google Android Jetpack.
+
 ## Contents
 
 |模块|方案|
@@ -16,6 +18,7 @@
 
 ## Developer
   * [liangxl](https://www.linkorz.xyz) - <xiaolingo2021@gmail.com>
+  * welcome to [https://www.linkorz.xyz](https://www.linkorz.xyz)
 
 ## License
     Copyright 2016-2025 xiaolin liang

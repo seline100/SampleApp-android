@@ -1,4 +1,4 @@
-package com.linkorz.demon.fragment;
+package com.linkorz.demo.fragment;
 
 import android.app.ActionBar;
 import android.app.Activity;
@@ -20,7 +20,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.linkorz.demon.R;
+import com.linkorz.demo.R;
 
 /**
  * Fragment used for managing interactions for and presentation of a navigation drawer.

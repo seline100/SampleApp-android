@@ -3,6 +3,7 @@ apply plugin: 'com.android.library'
 buildscript {
     repositories {
         jcenter()
+        google()
     }
 
     dependencies {
@@ -12,7 +13,7 @@ buildscript {
 
 android {
     compileSdkVersion android_compile_version
-    buildToolsVersion android_build_tools_version
+    buildToolsVersion '27'
 
     defaultConfig {
         minSdkVersion android_min_sdk_version
@@ -36,6 +37,28 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:appcompat-v7:25.3.1'
     testCompile 'junit:junit:4.12'
+
+    //{@ android support library (https://developer.android.google.cn/topic/libraries/support-library/)
+    compile "com.android.support:multidex:1.0.0"
+    compile "com.android.support:appcompat-v7:${support_library_version}"
+    compile "com.android.support:recyclerview-v7:${support_library_version}"
+
+    //add for fragmentCompat
+    compile "com.android.support:support-v13:${support_library_version}"
+
+    compile "com.android.support:preference-v14:${support_library_version}"
+
+    //support vector-drawable
+    compile "com.android.support:support-vector-drawable:${support_library_version}"
+    compile "com.android.support:animated-vector-drawable:${support_library_version}"
+
+    compile "com.android.support:support-annotations:${support_library_version}"
+
+    compile "com.android.support:design:${support_library_version}"
+
+    compile "com.android.support:customtabs:${support_library_version}"
+
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    //@}
 }

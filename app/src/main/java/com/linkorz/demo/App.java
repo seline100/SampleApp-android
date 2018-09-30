@@ -1,4 +1,4 @@
-package com.linkorz.demon;
+package com.linkorz.demo;
 
 import android.app.Application;
 

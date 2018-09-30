@@ -1,4 +1,4 @@
-package com.linkorz.demon.activity;
+package com.linkorz.demo.activity;
 
 import android.app.ActionBar;
 import android.app.FragmentManager;
@@ -7,10 +7,10 @@ import android.support.v4.widget.DrawerLayout;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.linkorz.demon.BaseActivity;
-import com.linkorz.demon.R;
-import com.linkorz.demon.fragment.NavigationDrawerFragment;
-import com.linkorz.demon.fragment.BaseWebViewFragment;
+import com.linkorz.demo.BaseActivity;
+import com.linkorz.demo.R;
+import com.linkorz.demo.fragment.NavigationDrawerFragment;
+import com.linkorz.demo.fragment.BaseWebViewFragment;
 
 public class MainActivity extends BaseActivity
         implements NavigationDrawerFragment.NavigationDrawerCallbacks {

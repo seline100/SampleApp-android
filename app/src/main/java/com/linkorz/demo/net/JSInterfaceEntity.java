@@ -1,4 +1,4 @@
-package com.linkorz.demon.net;
+package com.linkorz.demo.net;
 
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -8,8 +8,8 @@ import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.TaskStackBuilder;
 import android.webkit.JavascriptInterface;
 
-import com.linkorz.demon.R;
-import com.linkorz.demon.activity.MainActivity;
+import com.linkorz.demo.R;
+import com.linkorz.demo.activity.MainActivity;
 
 /**
  * Created by liangxl

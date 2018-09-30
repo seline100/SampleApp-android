@@ -1,20 +1,33 @@
 allprojects {
     repositories {
         jcenter()
+        maven {
+            url 'https://maven.google.com/'
+            name 'Google'
+        }
     }
 
     ext { //default config could be used in each module.
-        android_compile_version = 25
-        android_min_sdk_version = 14
-        android_target_sdk_version = 25
-        android_build_tools_version = '25.0.2'
-        gradle_build_version = '2.2.3'
+        android_compile_version = 26
+        android_min_sdk_version = 26
+        android_target_sdk_version = 26
+        android_build_tools_version = '26.0.0'
+        gradle_build_version = '3.2.0'
 
-        support_library_version = '25.0.1'
+        support_library_version = '26.0.0'
         gms_library_version = '9.0.0'
     }
 }
 
 task clean(type: Delete) {
     delete rootProject.buildDir
+}
+
+buildscript {
+    repositories {
+        maven {
+            url 'https://maven.google.com/'
+            name 'Google'
+        }
+    }
 }

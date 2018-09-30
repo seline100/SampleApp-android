@@ -1,4 +1,4 @@
-package com.linkorz.demon.fragment;
+package com.linkorz.demo.fragment;
 
 
 import android.annotation.TargetApi;
@@ -25,9 +25,9 @@ import android.webkit.WebViewClient;
 import android.widget.FrameLayout;
 import android.widget.Toast;
 
-import com.linkorz.demon.R;
-import com.linkorz.demon.activity.MainActivity;
-import com.linkorz.demon.net.JSInterfaceEntity;
+import com.linkorz.demo.R;
+import com.linkorz.demo.activity.MainActivity;
+import com.linkorz.demo.net.JSInterfaceEntity;
 
 import java.io.IOException;
 import java.io.StringReader;
