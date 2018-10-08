@@ -1,6 +1,6 @@
 package com.linkorz.demo;
 
-import android.app.Application;
+import com.linkorz.appbase.BaseApplication;
 
 /**
  * Created by liangxl
@@ -8,7 +8,7 @@ import android.app.Application;
  * Description:
  */
 
-public class App extends Application {
+public class App extends BaseApplication {
 
     @Override
     public void onCreate() {
