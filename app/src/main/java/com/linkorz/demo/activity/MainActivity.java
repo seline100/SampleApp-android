@@ -7,7 +7,7 @@ import android.support.v4.widget.DrawerLayout;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.linkorz.demo.BaseActivity;
+import com.linkorz.appbase.BaseActivity;
 import com.linkorz.demo.R;
 import com.linkorz.demo.fragment.NavigationDrawerFragment;
 import com.linkorz.demo.fragment.BaseWebViewFragment;

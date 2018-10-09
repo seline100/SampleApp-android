@@ -1,16 +1,10 @@
-package com.linkorz.demo;
+package com.linkorz.appbase;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v7.app.AppCompatActivity;
 
-/**
- * Created by liangxl
- * Date: 17-8-10
- * Description:
- */
-
-public class BaseActivity extends Activity {
+public class BaseActivity extends AppCompatActivity{
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

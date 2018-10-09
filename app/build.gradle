@@ -13,7 +13,7 @@ buildscript {
 
 android {
     compileSdkVersion android_compile_version
-    buildToolsVersion '27'
+    buildToolsVersion '26'
     defaultConfig {
         applicationId "com.linkorz.demo"
         minSdkVersion android_min_sdk_version
@@ -31,6 +31,6 @@ android {
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile project(':appbase')
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation project(':appbase')
 }
