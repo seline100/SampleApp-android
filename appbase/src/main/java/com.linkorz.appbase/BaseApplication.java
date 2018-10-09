@@ -17,7 +17,9 @@ public class BaseApplication extends Application {
         super.onCreate();
 
         // 程序异常关闭1s之后重新启动
-        new RebootThreadExceptionHandler(getBaseContext() , "Sorry to reboot!");
+        if (!BuildConfig.DEBUG) {
+            new RebootThreadExceptionHandler(getBaseContext(), "Sorry to reboot!");
+        }
     }
 
 }
