@@ -33,32 +33,33 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+    api fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestApi('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    testImplementation 'junit:junit:4.12'
+    testApi 'junit:junit:4.12'
 
     //{@ android support library (https://developer.android.google.cn/topic/libraries/support-library/)
-    implementation "com.android.support:multidex:1.0.0"
-    implementation "com.android.support:appcompat-v7:${support_library_version}"
-    implementation "com.android.support:recyclerview-v7:${support_library_version}"
+    api "com.android.support:multidex:1.0.0"
+    api "com.android.support:support-v4:${support_library_version}"
+    api "com.android.support:appcompat-v7:${support_library_version}"
+    api "com.android.support:recyclerview-v7:${support_library_version}"
 
     //add for fragmentCompat
-    implementation "com.android.support:support-v13:${support_library_version}"
+    api "com.android.support:support-v13:${support_library_version}"
 
-    implementation "com.android.support:preference-v14:${support_library_version}"
+    api "com.android.support:preference-v14:${support_library_version}"
 
     //support vector-drawable
-    implementation "com.android.support:support-vector-drawable:${support_library_version}"
-    implementation "com.android.support:animated-vector-drawable:${support_library_version}"
+    api "com.android.support:support-vector-drawable:${support_library_version}"
+    api "com.android.support:animated-vector-drawable:${support_library_version}"
 
-    implementation "com.android.support:support-annotations:${support_library_version}"
+    api "com.android.support:support-annotations:${support_library_version}"
 
-    implementation "com.android.support:design:${support_library_version}"
+    api "com.android.support:design:${support_library_version}"
 
-    implementation "com.android.support:customtabs:${support_library_version}"
+    api "com.android.support:customtabs:${support_library_version}"
 
-    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    api 'com.android.support.constraint:constraint-layout:1.0.2'
     //@}
 }
