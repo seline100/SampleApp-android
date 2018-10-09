@@ -9,8 +9,8 @@ import android.view.MenuItem;
 
 import com.linkorz.appbase.BaseActivity;
 import com.linkorz.demo.R;
-import com.linkorz.demo.fragment.NavigationDrawerFragment;
 import com.linkorz.demo.fragment.BaseWebViewFragment;
+import com.linkorz.demo.fragment.NavigationDrawerFragment;
 
 public class MainActivity extends BaseActivity
         implements NavigationDrawerFragment.NavigationDrawerCallbacks {

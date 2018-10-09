@@ -13,7 +13,7 @@ buildscript {
 
 android {
     compileSdkVersion android_compile_version
-    buildToolsVersion '26'
+    buildToolsVersion android_build_tools_version
 
     defaultConfig {
         minSdkVersion android_min_sdk_version
@@ -34,10 +34,10 @@ android {
 
 dependencies {
     api fileTree(dir: 'libs', include: ['*.jar'])
-    androidTestApi('com.android.support.test.espresso:espresso-core:2.2.2', {
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    testApi 'junit:junit:4.12'
+    testImplementation 'junit:junit:4.12'
 
     //{@ android support library (https://developer.android.google.cn/topic/libraries/support-library/)
     api "com.android.support:multidex:1.0.0"

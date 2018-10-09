@@ -13,7 +13,7 @@ buildscript {
 
 android {
     compileSdkVersion android_compile_version
-    buildToolsVersion '26'
+    buildToolsVersion android_build_tools_version
     defaultConfig {
         applicationId "com.linkorz.demo"
         minSdkVersion android_min_sdk_version

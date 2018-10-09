@@ -11,7 +11,7 @@ allprojects {
         android_compile_version = 26
         android_min_sdk_version = 26
         android_target_sdk_version = 26
-        android_build_tools_version = '26.0.0'
+        android_build_tools_version = '28.0.3'
         gradle_build_version = '3.2.0'
 
         support_library_version = '26.0.0'
