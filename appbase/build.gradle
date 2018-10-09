@@ -41,7 +41,6 @@ dependencies {
 
     //{@ android support library (https://developer.android.google.cn/topic/libraries/support-library/)
     api "com.android.support:multidex:1.0.0"
-    api "com.android.support:support-v4:${support_library_version}"
     api "com.android.support:appcompat-v7:${support_library_version}"
     api "com.android.support:recyclerview-v7:${support_library_version}"
 
